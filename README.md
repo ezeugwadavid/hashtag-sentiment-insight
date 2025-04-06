@@ -27,7 +27,7 @@ This project demonstrates how to:
 
 ---
 
-## ⚙️ Features
+## Features
 
 - Dynamic route for any hashtag `/insights/[hashtag]`
 - Trend data line chart (📈 / 📉) 
@@ -54,7 +54,7 @@ This project demonstrates how to:
 
 ## Time Spent
 
-| **Total** | **~10 hrs** |
+ **Total**: **10 hrs** 
 
 ---
 
