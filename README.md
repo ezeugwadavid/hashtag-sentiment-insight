@@ -1,40 +1,82 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# 📊 Hashtag Sentiment Insight
 
-## Getting Started
+An interactive insight page to visualize sentiment trends of a hashtag over time, using a dynamic route in Next.js, MUI for design, React Query for data fetching, and @mui/x-charts for visualizations.
 
-First, run the development server:
+---
+
+## 🧠 Overview
+
+This project demonstrates how to:
+
+- Dynamically route to pages like `/insights/[hashtag]`
+- Fetch mocked API data from `/api/trends/[hashtag]`
+- Visualize sentiment trends using `<LineChart />` from `@mui/x-charts`
+- Handle loading and error states gracefully
+- Support dark/light mode toggling
+- Lazily load heavy components with `next/dynamic`
+- Use React optimizations like `useMemo`, `useCallback`, and `React.memo`
+- Build with responsive and accessible Material UI components
+
+---
+
+## 🖼️ Screenshots
+
+| Desktop | Mobile |
+|--------|--------|
+| ![Desktop View](./screenshots/desktop.jpeg) | ![Mobile View](./screenshots/mobile.jpeg) |
+
+---
+
+## ⚙️ Features
+
+- ✅ Dynamic route for any hashtag `/insights/[hashtag]`
+- ✅ Trend data line chart (📈 / 📉) with interactive hover
+- ✅ Local mock API using `/pages/api/trends/[hashtag].ts`
+- ✅ Dark mode toggle with persisted preference
+- ✅ Lazy-loaded chart for better performance
+- ✅ Mobile responsive layout
+- ✅ Error handling with retry button
+
+---
+
+## 🚀 Tech Stack
+
+- Next.js 13+
+- TypeScript
+- Material UI (`@mui/material`, `@mui/icons-material`)
+- @mui/x-charts
+- React Query
+- CSS Modules or inline MUI styling
+- Axios
+- Mock API with file-based routing
+
+---
+
+## ⏱ Time Spent
+
+| Task | Time |
+|------|------|
+| Initial setup & folder structure | 20 mins |
+| API mocking + data fetching | 30 mins |
+| Chart integration + lazy loading | 45 mins |
+| Styling + responsive design | 30 mins |
+| Dark mode toggle | 15 mins |
+| Testing & debugging | 30 mins |
+| README & cleanup | 15 mins |
+| **Total** | **~3 hrs 5 mins** |
+
+---
+
+## 📦 Getting Started
 
 ```bash
+# Clone the repo
+git clone https://github.com/ezeugwadavid/hashtag-sentiment-insight.git
+cd hashtag-sentiment-insight
+
+# Install dependencies
+npm install
+
+# Run the app
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
