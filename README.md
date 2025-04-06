@@ -1,10 +1,10 @@
-# 📊 Hashtag Sentiment Insight
+# Hashtag Sentiment Insight
 
 An interactive insight page to visualize sentiment trends of a hashtag over time, using a dynamic route in Next.js, MUI for design, React Query for data fetching, and @mui/x-charts for visualizations.
 
 ---
 
-## 🧠 Overview
+## Overview
 
 This project demonstrates how to:
 
@@ -19,7 +19,7 @@ This project demonstrates how to:
 
 ---
 
-## 🖼️ Screenshots
+## Screenshots
 
 | Desktop | Mobile |
 |--------|--------|
@@ -29,17 +29,17 @@ This project demonstrates how to:
 
 ## ⚙️ Features
 
-- ✅ Dynamic route for any hashtag `/insights/[hashtag]`
-- ✅ Trend data line chart (📈 / 📉) with interactive hover
-- ✅ Local mock API using `/pages/api/trends/[hashtag].ts`
-- ✅ Dark mode toggle with persisted preference
-- ✅ Lazy-loaded chart for better performance
-- ✅ Mobile responsive layout
-- ✅ Error handling with retry button
+- Dynamic route for any hashtag `/insights/[hashtag]`
+- Trend data line chart (📈 / 📉) 
+- Local mock API using `/pages/api/trends/[hashtag].ts`
+- Dark mode toggle with persisted preference
+- Lazy-loaded chart for better performance
+- Mobile responsive layout
+- Error handling with retry button
 
 ---
 
-## 🚀 Tech Stack
+## Tech Stack
 
 - Next.js 13+
 - TypeScript
@@ -52,22 +52,13 @@ This project demonstrates how to:
 
 ---
 
-## ⏱ Time Spent
+## Time Spent
 
-| Task | Time |
-|------|------|
-| Initial setup & folder structure | 20 mins |
-| API mocking + data fetching | 30 mins |
-| Chart integration + lazy loading | 45 mins |
-| Styling + responsive design | 30 mins |
-| Dark mode toggle | 15 mins |
-| Testing & debugging | 30 mins |
-| README & cleanup | 15 mins |
-| **Total** | **~3 hrs 5 mins** |
+| **Total** | **~10 hrs** |
 
 ---
 
-## 📦 Getting Started
+## Getting Started
 
 ```bash
 # Clone the repo
