@@ -46,7 +46,7 @@ This project demonstrates how to:
 - Material UI (`@mui/material`, `@mui/icons-material`)
 - @mui/x-charts
 - React Query
-- CSS Modules or inline MUI styling
+- Inline MUI styling
 - Axios
 - Mock API with file-based routing
 
